@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Outras formataçoes</h1>
+    <h2>Codigo-fonte</h2>
+    <p>o comando <code>document.getElementByid('teste')</code> e escrito em linguagem JavaScript</p> <!--eeste omando code serve para as letras ficarem uniformes e de mais fácil leitura-->
+
+    <pre> <!--se colocarmos o codigo somente ccom a tag code o código fica igual um texto normal, porém a tag pre faz ficar na forma correta de código, assim como está no vs code. -->
+        <code>
+            num = int(input('digite um numero'))
+            if num % 2 == 0:
+                print(f'o numero {num} e par')
+            else:
+                print(f'o numero {num} e impar')
+        </code>
+    </pre>
+
+    <h2>Citacoes</h2>
+    <p>Como diria o pai de um amigo: <q>o computador e um burro muito rapido</q></p> <!--a tag q serve para citar um texto, poderiamos colocar as as aspas manualmente mas com a tag q estamos colocando sentido no código.-->
+
+    <h2>Citacoes completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=yZfXAAAAcAAJ&redir_esc=y">
+        A diferença entre elementos inline e um bloco de texto e que os elementos HTML neste capítulo descrevem como deve ser a representação como um todo de um texto.
+    </blockquote> <!--a tag blockquote serve para citar um texto, e o cite serve para o link do site que contém o texto.quando abrimos, nao vemos o link mas o navegador vai entender que a citação está relacionada a este link.-->
+
+    <h2>Abreviacoes</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p> <!--a tag abbr serve para abreviar palavras, quando abrimos, o navegador vai mostrar o texto que estiver entre as abreviacoes.-->
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p> <!--a tag bdo serve para inverter o texto, quando abrimos, o navegador vai mostrar o texto de tras para frente.-->
+</body>
+</html>
